@@ -4,7 +4,7 @@ import Produto from "./Produto";
 
 function Produtos() {
   return (
-    <div className="p-5 flex flex-wrap">
+    <div className="flex flex-wrap p-5">
       {ProdutosTopDezApi.map((product, index) => (
         <Produto item={product} key={index} />
       ))}
