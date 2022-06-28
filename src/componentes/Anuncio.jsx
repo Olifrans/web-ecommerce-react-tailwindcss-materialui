@@ -13,7 +13,7 @@ function Anuncio() {
 
   return (
     <div className={anuncioStyle}>
-      <h2>Aproveite nossas ofertas com 40% de descontos nas compras online</h2>
+      <h2>Ofertas com 40% de descontos nas compras online</h2>
       <Close className="cursor-pointer" onClick={handleClose} />
     </div>
   );
