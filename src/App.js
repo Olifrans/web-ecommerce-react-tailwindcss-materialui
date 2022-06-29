@@ -1,11 +1,13 @@
 //import CategoriaPage from "./pages/CategoriaPage";
-import ProdutoPage from "./pages/ProdutoPage";
+import Carrinho from "./pages/Carrinho";
+//import ProdutoPage from "./pages/ProdutoPage";
 //import Home from "./pages/Home";
 
 function App() {
   return (
     <div className="App">
-      <ProdutoPage />
+      {/* <ProdutoPage /> */}
+      <Carrinho />
       {/* <CategoriaPage /> */}
       {/* <Home /> */}
     </div>
