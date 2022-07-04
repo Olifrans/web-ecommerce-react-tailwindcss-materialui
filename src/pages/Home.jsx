@@ -6,7 +6,7 @@ import NewsLetters from "../componentes/NewsLetters";
 import Produtos from "../componentes/Produtos";
 import Sliders from "../componentes/Sliders";
 
-function Home() {
+const Home = () => {
   return (
     <div className="teste">
       <Anuncio />
@@ -18,6 +18,6 @@ function Home() {
       <Footer />
     </div>
   );
-}
+};
 
 export default Home;

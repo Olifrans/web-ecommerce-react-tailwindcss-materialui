@@ -17,17 +17,16 @@ const CategoriaPage = () => {
             <p>Filtrar por</p>
             <select className="ml-3 border-2 border-silver mobile:ml-0">
               <option selected disabled>
-                Tamanho
+                Size
               </option>
               <option>Pequeno</option>
               <option>Médio</option>
               <option>Grande</option>
               <option>Extra Grande</option>
             </select>
-
             <select className="ml-3 border-2 border-silver mobile:ml-0">
               <option selected disabled>
-                Cor
+                Cores
               </option>
               <option>Amarelo</option>
               <option>Azul</option>
@@ -36,7 +35,7 @@ const CategoriaPage = () => {
             </select>
           </div>
           <div className="flex mobile:flex-col mobile:items-end">
-            <p>Ordenar por</p>
+            <p>Sort by</p>
             <select className="ml-3 border-2 border-silver">
               <option selected>Mais recente (primeiro)</option>
               <option>Mais antigo (primeiro)</option>

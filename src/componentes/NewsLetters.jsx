@@ -10,8 +10,8 @@ const NewsLetters = () => {
       <h2 className="text-[28px] mt-2 mobile:text-center mobile:p-3">
         Cadastre-se para receber Promoções e Descontos exclusivos
       </h2>
-      <div className="flex mt-[3rem] item-center justify-between min-w-[30rem] min-h-[2rem] bg-white border-[#cccccc] rounded-[5px] overflow-hidden mobile:min-w-[20rem]">
-        
+      <div className="flex mt-[3rem] item-center justify-between min-w-[30rem] 
+        min-h-[2rem] bg-white border-[#cccccc] rounded-[5px] overflow-hidden mobile:min-w-[20rem]">
         <input
           className="border-none pl-[20px] flex-[8]"
           type="email"

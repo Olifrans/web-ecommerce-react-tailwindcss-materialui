@@ -4,14 +4,12 @@ import Counter from "../componentes/Counter";
 import Footer from "../componentes/Footer";
 import NavBar from "../componentes/NavBar";
 import NewsLetters from "../componentes/NewsLetters";
-import Produtos from "../componentes/Produtos";
 
 const ProdutoPage = () => {
   return (
     <div>
       <Anuncio />
       <NavBar />
-
       <div className="flex justify-center mobile:flex-col mobile:mt-4 mobile:p-3">
         <div className="flex-1 flex items-center justify-center">
           <img
@@ -22,7 +20,7 @@ const ProdutoPage = () => {
         </div>
         <div className="flex-[1.3] flex flex-col items-start  justify-items-center mt-10 mobile:items-center">
           <h1 className="title text-[40px] mobile:text-[30px]">
-            Moletom Creme Original
+            Casaco de Moletom
           </h1>
           <p className="disription pr-[4rem] text-justify mt-4 mobile:pr-0">
             A dor em si, a dor deve ser implementada no processo adipísico
@@ -36,7 +34,7 @@ const ProdutoPage = () => {
             </p>
 
             <div className="colors flex mt-7 text-2xl">
-              Nas cores
+              Nas Cores
               <div className="colorSelect bg-red-600 "></div>
               <div className="colorSelect bg-blue-600 "></div>
               <div className="colorSelect bg-yellow-400 "></div>
@@ -58,11 +56,10 @@ const ProdutoPage = () => {
           </div>
 
           <button className="text-white bg-[#8a4af3] rounded-md shadow-md mt-[30px] p-3">
-            Adicionar ao carrinho
+            Adicione ao carrinho
           </button>
         </div>
       </div>
-
       <NewsLetters />
       <Footer />
     </div>
